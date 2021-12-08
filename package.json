@@ -1,0 +1,29 @@
+{
+  "name": "prettier-nvim",
+  "version": "1.0.0",
+  "description": "prettier, as a remote plugin for neovim",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxdjohnson/prettier-nvim.git"
+  },
+  "author": "Max Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxdjohnson/prettier-nvim/issues"
+  },
+  "homepage": "https://github.com/maxdjohnson/prettier-nvim#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.8",
+    "@types/prettier": "^2.4.2",
+    "typescript": "^4.5.0"
+  },
+  "dependencies": {
+    "nanolru": "~1.0.0",
+    "neovim": "^4.10.0",
+    "prettier": "^2.5.0"
+  }
+}
